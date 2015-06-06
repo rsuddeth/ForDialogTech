@@ -17,11 +17,11 @@ class Rubinacci
       i = 1;
       while i < @size do
         i = i + 1
-         curr = (@p2 + @p1)
-         print curr
-         print ' '
-         @p2 = @p1
-         @p1 = curr
+      	curr = (@p2 + @p1)
+      	print curr
+      	print ' '
+      	@p2 = @p1
+      	@p1 = curr
       end
       puts (@p2 + @p1)     
    end
