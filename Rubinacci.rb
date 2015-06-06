@@ -16,7 +16,7 @@ class Rubinacci
       print ' '
       i = 1;
       while i < @size do
-        i = i + 1
+         i = i + 1
       	curr = (@p2 + @p1)
       	print curr
       	print ' '
