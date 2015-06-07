@@ -1,0 +1,15 @@
+<h1>Fibinacci</h1>
+
+<%= form_for :fibinacci, url: fibinaccis_path do |f| %>
+  <p>
+    <%= f.label :enter_n %><br>
+    <%= f.text_field :enter_n %>
+  </p>
+  <p>
+    <%= f.submit "Generate Series" %>
+  </p>
+  <p>
+    <%= simple_format(@ans) %>
+  </p>
+<% end %>
+
