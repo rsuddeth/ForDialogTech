@@ -1,28 +1,21 @@
 == README
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+The Rubinacci page is at fibinaccis/new (so for my test with default server settings
+it was http://localhost:3000/fibinaccis/new) I have set up the root route to point 
+right to that.
 
-Things you may want to cover:
+I installed very latest versions of Ruby and Rails for this.
 
-* Ruby version
+The reason for the "fibinaccis" is that the tutorials I saw used plural names to
+generate controllers, and got some
+kind of magic out of it that I did not quite understand. So that comes from following
+their example. Obviously, there is much I don't understand about how these web objects
+are set up. (It would be fascinating to learn, but not sure that will be part of my job.)
+That is also why there are a whole bunch more files in there than I really need. It was
+not clear what could be excluded, and looked pretty time consuming to figure it out. 
 
-* System dependencies
+I did spend some time figuring out how to do a rails app without using a database, as
+that seemed completely unnecessary for this little application. 
 
-* Configuration
+I hope it works for you
 
-* Database creation
-
-* Database initialization
-
-* How to run the test suite
-
-* Services (job queues, cache servers, search engines, etc.)
-
-* Deployment instructions
-
-* ...
-
-
-Please feel free to use a different markup language if you do not plan to run
-<tt>rake doc:app</tt>.
